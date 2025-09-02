@@ -1,0 +1,34 @@
+[*] 20/08/2025 16:13:12 - Starting HardeningKitty
+[*] 20/08/2025 16:13:12 - Getting machine information
+[*] Hostname: TFM-VM-S2
+[*] Domain: WORKGROUP
+[*] Domain role: StandaloneServer
+[*] Install date: 07/09/2025 15:10:39
+[*] Last Boot Time: 08/20/2025 16:04:01
+[*] Uptime: 00:09:11.1037848
+[*] Windows: Microsoft Windows Server 2022 Standard Evaluation
+[*] Windows edition: ServerStandardEval
+[*] Windows version: 2009
+[*] Windows build: 20348.1.amd64fre.fe_release.210507-1500
+[*] System-locale: es-ES
+[*] Powershell Version: 5.1
+[*] 20/08/2025 16:13:14 - Language warning
+[?] 20/08/2025 16:13:14 - HardeningKitty was developed for the system language 'en-US'. This system uses 'es-ES' Language-dependent analyses can sometimes produce false results. Please create an issue if this occurs.
+[*] 20/08/2025 16:13:14 - Getting user information
+[*] Username: TFM-VM-S2\SecureAdmin
+[*] Is Admin: True
+[*] 20/08/2025 16:13:14 - Starting Category Features
+ID 1000, SMBv1 Support, Result=Disabled, Recommended=Disabled, Severity=Passed
+[*] 20/08/2025 16:13:15 - Starting Category Account Policies
+ID 1103, Store passwords using reversible encryption, Result=0, Recommended=0, Severity=Passed
+[*] 20/08/2025 16:13:15 - Starting Category Security Options
+ID 1326, Network security: Do not store LAN Manager hash value on next password change, Result=1, Recommended=1, Severity=Passed
+[*] 20/08/2025 16:13:15 - Starting Category Administrative Templates: Printers
+ID 1764, Point and Print Restrictions: When installing drivers for a new connection (CVE-2021-34527), Result=0, Recommended=0, Severity=Passed
+ID 1765, Point and Print Restrictions: When updating drivers for an existing connection (CVE-2021-34527), Result=0, Recommended=0, Severity=Passed
+[*] 20/08/2025 16:13:15 - Starting Category Administrative Templates: Windows Components
+ID 1708, BitLocker Drive Encryption: Volume status, Result=FullyEncrypted, Recommended=FullyEncrypted, Severity=Passed
+[*] 20/08/2025 16:13:15 - Starting Category MS Security Guide
+ID 2203, WDigest Authentication, Result=0, Recommended=0, Severity=Passed
+[*] 20/08/2025 16:13:15 - HardeningKitty is done
+[*] 20/08/2025 16:13:15 - Your HardeningKitty score is: 6. HardeningKitty Statistics: Total checks: 7 - Passed: 7, Low: 0, Medium: 0, High: 0.

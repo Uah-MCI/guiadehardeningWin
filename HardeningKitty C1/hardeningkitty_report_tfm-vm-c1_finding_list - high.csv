@@ -1,0 +1,8 @@
+"ID","Category","Name","Severity","Result","Recommended","TestResult","SeverityFinding"
+"1000","Features","SMBv1 Support","Passed","Disabled","Disabled","Passed","High"
+"1103","Account Policies","Store passwords using reversible encryption","Passed","0","0","Passed","High"
+"1326","Security Options","Network security: Do not store LAN Manager hash value on next password change","Passed","1","1","Passed","High"
+"1764","Administrative Templates: Printers","Point and Print Restrictions: When installing drivers for a new connection (CVE-2021-34527)","Passed","0","0","Passed","High"
+"1765","Administrative Templates: Printers","Point and Print Restrictions: When updating drivers for an existing connection (CVE-2021-34527)","Passed","0","0","Passed","High"
+"1708","Administrative Templates: Windows Components","BitLocker Drive Encryption: Volume status","Passed","FullyEncrypted","FullyEncrypted","Passed","High"
+"2203","MS Security Guide","WDigest Authentication","Passed","0","0","Passed","High"
